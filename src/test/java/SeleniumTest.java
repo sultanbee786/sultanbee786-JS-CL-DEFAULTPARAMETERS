@@ -27,7 +27,7 @@ public class SeleniumTest{
     @BeforeEach
     public void setUp() {
         // Set up ChromeDriver path
-        System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
 
         // Get file
         File file = new File("src/main/java/index.html");
